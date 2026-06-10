@@ -1,4 +1,4 @@
-# AI Evals Tutorial - Learn to Build Evaluations for AI Systems
+# AI Evals Exploration - Learn to Build Evaluations for AI Systems
 
 An interactive learning platform for AI practitioners to master building effective evaluations (evals) for AI systems and applications.
 
@@ -6,7 +6,7 @@ An interactive learning platform for AI practitioners to master building effecti
 - 🖥️ **Web App** - Modern browser interface with live code editor
 - 💻 **CLI App** - Terminal-based interactive tutorial
 
-> 🎥 **[Live Demo](https://github.com/deepak-mukunthu/AIEvalsTutor#demo)** | 📖 **[Examples](https://github.com/deepak-mukunthu/AIEvalsTutor#examples)** | 🚀 **[Quick Start](https://github.com/deepak-mukunthu/AIEvalsTutor#quick-start)**
+> 🎥 **[Live Demo](https://github.com/armadditech/Evalsexploration/#demo)** | 📖 **[Examples]([https://github.com/deepak-mukunthu/AIEvalsTuto](https://github.com/armadditech/Evalsexploration/)r#examples)** | 🚀 **[Quick Start](https://github.com/armadditech/Evalsexploration/#quick-start)**
 
 ## What You'll Learn
 
