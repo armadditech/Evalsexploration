@@ -1,0 +1,68 @@
+[
+  {
+    "id": "extract-1",
+    "input": "John Smith from Acme Corp can be reached at john@acme.com or 555-0123.",
+    "expectedOutput": {
+      "name": "John Smith",
+      "email": "john@acme.com",
+      "phone": "555-0123",
+      "company": "Acme Corp"
+    },
+    "metadata": { "difficulty": "easy", "has_all_fields": true }
+  },
+  {
+    "id": "extract-2",
+    "input": "Email Sarah Johnson at sarah.j@example.org for more information.",
+    "expectedOutput": {
+      "name": "Sarah Johnson",
+      "email": "sarah.j@example.org",
+      "phone": null,
+      "company": null
+    },
+    "metadata": { "difficulty": "medium", "has_all_fields": false }
+  },
+  {
+    "id": "extract-3",
+    "input": "Contact the support team at 1-800-SUPPORT.",
+    "expectedOutput": {
+      "name": null,
+      "email": null,
+      "phone": "1-800-SUPPORT",
+      "company": null
+    },
+    "metadata": { "difficulty": "medium", "has_all_fields": false }
+  },
+  {
+    "id": "extract-4",
+    "input": "Dr. Emily Chen, Chief Science Officer at BioTech Industries, can be reached at e.chen@biotech.io or call her assistant at (555) 123-4567.",
+    "expectedOutput": {
+      "name": "Dr. Emily Chen",
+      "email": "e.chen@biotech.io",
+      "phone": "(555) 123-4567",
+      "company": "BioTech Industries"
+    },
+    "metadata": { "difficulty": "hard", "has_title": true, "has_all_fields": true }
+  },
+  {
+    "id": "extract-5",
+    "input": "For urgent matters, please email urgent@company.com",
+    "expectedOutput": {
+      "name": null,
+      "email": "urgent@company.com",
+      "phone": null,
+      "company": null
+    },
+    "metadata": { "difficulty": "easy", "has_all_fields": false }
+  },
+  {
+    "id": "extract-6",
+    "input": "Michael Brown, mike.brown@example.net, Works at Tech Solutions",
+    "expectedOutput": {
+      "name": "Michael Brown",
+      "email": "mike.brown@example.net",
+      "phone": null,
+      "company": "Tech Solutions"
+    },
+    "metadata": { "difficulty": "medium", "format": "comma_separated" }
+  }
+]

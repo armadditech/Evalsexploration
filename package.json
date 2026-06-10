@@ -1,0 +1,41 @@
+{
+  "name": "ai-evals-tutorial",
+  "version": "1.0.0",
+  "description": "Interactive learning platform for building AI evaluations",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/app.ts",
+    "start": "npm run dev",
+    "build": "tsc",
+    "eval:examples": "tsx src/examples/run-all.ts",
+    "eval:custom": "tsx src/run-evals.ts",
+    "test": "vitest",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "ai",
+    "evals",
+    "llm",
+    "testing",
+    "evaluation",
+    "tutorial"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.12",
+    "ora": "^8.0.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.5",
+    "prettier": "^3.2.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
+  }
+}

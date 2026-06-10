@@ -1,0 +1,86 @@
+[
+  {
+    "id": "pos-1",
+    "input": "I absolutely love this product! Best purchase ever.",
+    "expectedOutput": "positive",
+    "metadata": { "category": "strong_positive", "difficulty": "easy" }
+  },
+  {
+    "id": "pos-2",
+    "input": "Amazing experience! Highly recommend to everyone.",
+    "expectedOutput": "positive",
+    "metadata": { "category": "strong_positive", "difficulty": "easy" }
+  },
+  {
+    "id": "pos-3",
+    "input": "Pretty good, I'm satisfied.",
+    "expectedOutput": "positive",
+    "metadata": { "category": "mild_positive", "difficulty": "medium" }
+  },
+  {
+    "id": "pos-4",
+    "input": "Not bad at all.",
+    "expectedOutput": "positive",
+    "metadata": { "category": "double_negative", "difficulty": "hard" }
+  },
+  {
+    "id": "neg-1",
+    "input": "This is terrible. Completely disappointed.",
+    "expectedOutput": "negative",
+    "metadata": { "category": "strong_negative", "difficulty": "easy" }
+  },
+  {
+    "id": "neg-2",
+    "input": "Worst customer service I have ever experienced.",
+    "expectedOutput": "negative",
+    "metadata": { "category": "strong_negative", "difficulty": "easy" }
+  },
+  {
+    "id": "neg-3",
+    "input": "Not great, could be better.",
+    "expectedOutput": "negative",
+    "metadata": { "category": "mild_negative", "difficulty": "medium" }
+  },
+  {
+    "id": "neg-4",
+    "input": "I love how they managed to disappoint me in every way.",
+    "expectedOutput": "negative",
+    "metadata": { "category": "sarcasm", "difficulty": "hard" }
+  },
+  {
+    "id": "neu-1",
+    "input": "The package arrived on Tuesday.",
+    "expectedOutput": "neutral",
+    "metadata": { "category": "factual", "difficulty": "easy" }
+  },
+  {
+    "id": "neu-2",
+    "input": "It is available in three colors: red, blue, and green.",
+    "expectedOutput": "neutral",
+    "metadata": { "category": "descriptive", "difficulty": "easy" }
+  },
+  {
+    "id": "neu-3",
+    "input": "It's okay, I guess.",
+    "expectedOutput": "neutral",
+    "metadata": { "category": "ambiguous", "difficulty": "hard" }
+  },
+  {
+    "id": "edge-1",
+    "input": "",
+    "expectedOutput": "neutral",
+    "metadata": { "category": "empty", "difficulty": "edge_case" }
+  },
+  {
+    "id": "edge-2",
+    "input": "12345 67890",
+    "expectedOutput": "neutral",
+    "metadata": { "category": "numbers_only", "difficulty": "edge_case" }
+  },
+  {
+    "id": "edge-3",
+    "input": "Good and bad.",
+    "expectedOutput": "neutral",
+    "metadata": { "category": "mixed_sentiment", "difficulty": "hard" }
+  }
+]
